@@ -3,7 +3,8 @@ sexo:'M',
  peso: '85', 
  engordar(p=0){
     console.log('engordou')
-    this peso += p
+    this.peso += p
 }}
 
-console.log(amigo.nome)
+amigo.engordar(2)
+console.log(`${amigo.nome} pesa ${amigo.peso} KG`)
